@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        cameraT = GetComponent<Camera>().transform;
     }
 
     // Update is called once per frame
@@ -40,9 +40,10 @@ public class PlayerController : MonoBehaviour
 
         Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector2 input_dir = input.normalized;
+        //Debug.Log(input_dir);
+        Vector2 forward = new Vector2(0.0f, 1.0f);
 
-
-        if (input_dir != Vector2.zero)
+        if (input_dir == forward)
         {
             float target_rotation = Mathf.Atan2(input_dir.x, input_dir.y) * Mathf.Rad2Deg + cameraT.eulerAngles.y;
             transform.eulerAngles = Vector2.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, target_rotation, ref turnSmoothVeolocity, turnSmoothTime);
