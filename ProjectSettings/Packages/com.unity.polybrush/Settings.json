@@ -21,7 +21,7 @@
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "Scattering.AvoidOverlappingObjects",
-                "value": "{\"m_Value\":false}"
+                "value": "{\"m_Value\":true}"
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -81,7 +81,7 @@
             {
                 "type": "UnityEditor.Polybrush.PrefabLoadout, Unity.Polybrush.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ScatteringEditor.userLoadout",
-                "value": "{\"m_Value\":{\"infos\":[{\"palette\":{\"fileID\":11400000,\"guid\":\"bbdf7b5827d191e4284cd464c0f18942\",\"type\":2},\"prefab\":{\"fileID\":919132149155446097,\"guid\":\"0a64d8422472d564b9c60cbe0c07505c\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"bbdf7b5827d191e4284cd464c0f18942\",\"type\":2},\"prefab\":{\"fileID\":919132149155446097,\"guid\":\"fe2e9662aa3a8494ca01afde7e22c282\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"bbdf7b5827d191e4284cd464c0f18942\",\"type\":2},\"prefab\":{\"fileID\":919132149155446097,\"guid\":\"4ea7cf1e45d3ed047a6983f356c849f3\",\"type\":3}}]}}"
+                "value": "{\"m_Value\":{\"infos\":[{\"palette\":{\"fileID\":11400000,\"guid\":\"bbdf7b5827d191e4284cd464c0f18942\",\"type\":2},\"prefab\":{\"fileID\":919132149155446097,\"guid\":\"923066dbf5baf4a4296d6357f341cbde\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"bbdf7b5827d191e4284cd464c0f18942\",\"type\":2},\"prefab\":{\"fileID\":919132149155446097,\"guid\":\"f22d5a42a97a1854b8b6ce378a625b2a\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"bbdf7b5827d191e4284cd464c0f18942\",\"type\":2},\"prefab\":{\"fileID\":919132149155446097,\"guid\":\"25eea6789633c0a488bc32f0fe2d6f39\",\"type\":3}}]}}"
             },
             {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",

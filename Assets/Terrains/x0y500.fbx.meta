@@ -10,6 +10,12 @@ ModelImporter:
       name: Material.002
     second: {fileID: -3846018093981099296, guid: c9c98dc6c99f809409364866fa3406c8,
       type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Terrain
+    second: {fileID: -6051652655679926979, guid: dd5bd3a60b9eff648958c2c2e5b25385,
+      type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

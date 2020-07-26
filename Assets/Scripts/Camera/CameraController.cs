@@ -15,7 +15,7 @@ public class CameraController : MonoBehaviour
     Vector3 currentRotation;
 
     float yaw;
-    float pitch;
+    float pitch = -20;
 
     void Start()
     {
